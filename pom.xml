@@ -100,6 +100,12 @@
   </pluginRepositories>
 
   <profiles>
+    <profile>
+      <id>skipUnitTests</id>
+      <properties>
+        <skipTests>true</skipTests>
+      </properties>
+    </profile>
     <!-- For use by Nuxeo internal QA -->
     <profile>
       <id>qa</id>
